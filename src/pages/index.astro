@@ -1,5 +1,9 @@
 ---
 
+import '../styles/styles.min.css';
+import Navigation from '../components/Navigation.astro';
+import Testblock from '../components/Testblock.astro';
+
 ---
 
 <html lang="en">
@@ -12,9 +16,11 @@
 	</head>
 	<body>
 		<nav>
-			<a href="/">Home</a> – <a href="/about/">About</a> – <a href="/blog/">Blog</a>
+			<Navigation />
 		</nav>
 		<h1>My Astro site</h1>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque alias iusto architecto. Placeat, nam optio?</p>
+		<Testblock var1="Coucou" var2="Blip" />
+		<Testblock var1="Hello" var2="Blap" />
+		
 	</body>
 </html>
