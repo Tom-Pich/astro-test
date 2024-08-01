@@ -3,7 +3,7 @@ reference: 66abb39cc2cda
 parent: null
 date: '2024-08-01T16:11:08+00:00'
 locale: fr_FR
-permalink: /fr/premiere-page
+permalink: /
 slug: premiere-page
 title: 'Première page'
 description: 'Site test généré par Astro'
